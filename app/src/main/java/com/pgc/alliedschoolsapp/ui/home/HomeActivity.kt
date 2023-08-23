@@ -30,6 +30,7 @@ class HomeActivity : AppCompatActivity() {
 
 
         viewModel.getMovies()
+
         setUpObservers()
 
     }
